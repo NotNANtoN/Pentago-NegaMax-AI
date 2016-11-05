@@ -1,0 +1,37 @@
+To do:
+
+Priorität:
+	1.testing environment
+	2.beta cuts
+	3.aspiration windows
+	4.better ordering
+
+
+-add testing environment
+	-test cases
+	-look up perfect solutions for test cases
+	-timer for test cases
+	-score tests( according to correctness of the move and time taken to calculate the move)
+	-implement test cases
+
+-aspiration windows
+	- are they useful?
+	-why does a window of 20 lead to seg faults?
+-beta cuts
+	-inside or outside of alpha if statement
+-improve move ordering
+	-add several best moves to be searched first
+
+
+Done:
+
+Fixed:
+-fix segmentation faults! ( See test case 1)
+	test case 1:
+011211
+012010
+122202
+001102
+010020
+122200
+b
